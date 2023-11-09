@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" appversion="7.0.6" apprev="20004">
+  <panorama id="node4">
+    <input overlap="1" width="3600" levelingroll="0" levelbiashidpi="1.000" height="3600" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingpitch="0">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" tilt="0" fov="100" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330" pan="360"/>
+    </view>
+    <userdata source="" longitude="129.436702" title="저층부" customnodeid="" author="" heading="0" tags="대왕암공원" latitude="35.489884" info="" nodeid="node4" datetime="2023. 11. 2. 오후 12:06" description="" altitude="94.89" copyright="" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" width="180" textcolor="0x000000" background="1" backgroundalpha="1" wordwrap="1" height="20" border="1" borderalpha="1" borderradius="0"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" enabled="1" blendcolor="0x000000" blendtime="1" softedge="0" delay="none" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomfov="40" type="crossdissolve" zoomout="0" zoomoutpause="1"/>
+    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" contextfullscreen="1" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" speedwheel="1" zoomcentercursor="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" contextprojections="0" lockedwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input overlap="1" width="3600" levelingroll="0" levelbiashidpi="1.000" height="3600" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingpitch="0">
+      <level height="3600" predecode="0" width="3600" preload="0"/>
+      <level height="1800" predecode="0" width="1800" preload="0"/>
+      <level height="900" predecode="0" width="900" preload="0"/>
+      <level height="450" predecode="1" width="450" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" tilt="0" fov="100" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fovfisheye="360" scaletofit="1" tilt="90" fov="140" fovstereographic="330" pan="360"/>
+    </view>
+    <userdata source="" longitude="129.436700" title="고층부" customnodeid="" author="" heading="0" tags="대왕암공원" latitude="35.489885" info="" nodeid="node2" datetime="2023. 11. 2. 오후 12:09" description="" altitude="244.69" copyright="" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" width="180" textcolor="0x000000" background="1" backgroundalpha="1" wordwrap="1" height="20" border="1" borderalpha="1" borderradius="0"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1" mode="1"/>
+      <polyhotspot bordercolor="0x0000ff" backgroundcolor="0x0000ff" title="" url="" target="_blank" backgroundalpha="0.25098" id="도로1" description="" borderalpha="1">
+        <polystring>-325.22/-12.55|-322.03/-14.09|-319.61/-16.25|-318.01/-17.72|-316.92/-18.23|-314.57/-20.19|-312.78/-21.68|-310.31/-23.28|-307.95/-25.42|-306.34/-25.95|-304.01/-27.35|-302.21/-28.94|-300.41/-30.46|-297.89/-33.22|-296.48/-34.13|-295.2/-35.28|-294.13/-36.13|-293.48/-36.56|-295.18/-36.79|-296.73/-36.58|-300.11/-33.85|-303.56/-30.52|-306.39/-28.53|-309.42/-26.08|-311.3/-23.93|-313.59/-22.04|-317.05/-18.98|-319.71/-16.5</polystring>
+      </polyhotspot>
+      <polyhotspot bordercolor="0x0000ff" backgroundcolor="0x0000ff" title="" url="" target="_blank" backgroundalpha="0.25098" id="도로3" description="" borderalpha="1">
+        <polystring>-296.8/-36.97|-298.3/-38.55|-297.35/-39.44|-294.52/-40.6|-294.72/-41.43|-295.11/-44.42|-295.28/-46.12|-295.65/-48.51|-296.22/-50.87|-297.48/-52.92|-299.94/-55.44|-303.71/-57.8|-307.45/-59.37|-312.82/-61.73|-312.36/-62.47|-306.47/-60.3|-299.71/-56.56|-296.71/-54.54|-295.13/-52.27|-294.38/-48.55|-293.92/-42.9|-293.54/-39.85|-293.48/-38.19|-294.07/-36.58|-294.31/-36.11</polystring>
+      </polyhotspot>
+      <polyhotspot bordercolor="0x0000ff" backgroundcolor="0x0000ff" title="" url="" target="_blank" backgroundalpha="0.25098" id="도로2" description="" borderalpha="1">
+        <polystring>-293.06/-37.05|-290.91/-36.42|-287.76/-35.42|-284.88/-34.52|-282.72/-33.49|-280.32/-32.35|-277.54/-30.94|-275.3/-29.88|-273.4/-28.9|-271.65/-27.83|-270.56/-26.65|-269.38/-25.33|-268.4/-24.21|-267.74/-23.1|-267.64/-22.43|-266.95/-21.76|-266.39/-22.31|-266.86/-23.54|-267.7/-24.83|-268.79/-26.12|-270.57/-27.68|-272.38/-29.01|-273.79/-29.97|-276.3/-31.39|-278.03/-32.41|-281.13/-33.92|-283.14/-34.83|-286.97/-36.24|-288.75/-36.75|-290.55/-37.36|-291.81/-38.59|-292.22/-40.28|-292.62/-42.8|-292.64/-44.86|-292.67/-46.17|-292.83/-48.99|-292.68/-51.55|-291.96/-54.57|-290.28/-57.07|-287.75/-58.68|-285.82/-60.04|-287.33/-60.44|-288.85/-60.45|-292.1/-58.28|-294.1/-55.33|-294.29/-52.58|-294.85/-51.12|-294.81/-47.46|-294.22/-41.48|-293.67/-38.65|-294.02/-36.82</polystring>
+      </polyhotspot>
+      <polyhotspot bordercolor="0x0000ff" backgroundcolor="0x0000ff" title="" url="" target="_blank" backgroundalpha="0.25098" id="도로4" description="" borderalpha="1">
+        <polystring>-298.45/-39.26|-300.04/-39.43|-303.4/-39.59|-305.8/-39.45|-308.55/-40.39|-312.3/-41.52|-314.93/-42.39|-318.22/-43.31|-321.78/-43.1|-326.04/-43.15|-328.75/-42.76|-332.29/-42.17|-337.24/-40.77|-339.73/-39.9|-340.41/-38.51|-339.57/-36.71|-338.44/-35.05|-337.53/-33.71|-336.88/-31.9|-336.7/-30.04|-337.36/-27.93|-338.77/-25.95|-341.64/-23.34|-343.66/-21.88|-345.71/-20.84|-346.27/-20.36|-347.46/-19.79|-348.9/-18.93|-347.86/-19.15|-345.48/-20.6|-344.26/-21.38|-342.04/-23.01|-339.91/-24.5|-338.88/-25.47|-337.3/-27.15|-336.18/-28.71|-336/-30.58|-336.27/-32.31|-337.3/-34.22|-339.37/-37.73|-339.21/-39.36|-337.1/-40.71|-337.71/-40.19|-334.99/-41.07|-330.27/-41.86|-333.83/-41.21|-331.85/-41.45|-327.59/-42.07|-321.87/-42.65|-320.19/-42.81|-320.3/-42.47|-318.39/-42.2|-316.63/-41.87|-314.04/-41.37|-311.59/-40.44|-309.8/-39.75|-308.5/-39.24|-306.74/-38.84|-304.51/-38.77|-302.6/-38.65|-300.86/-38.28|-300.08/-38.03|-298.85/-37.04|-297.97/-35.56|-296.71/-36.1|-296.97/-37.19|-298.03/-38.07</polystring>
+      </polyhotspot>
+      <polyhotspot id="도로5" title="" url="" target="_blank" description="">
+        <polystring>-285.9/-60.06|-282.8/-61.44|-277.28/-62.51|-269.99/-64.25|-264.7/-65.66|-259.24/-66.29|-251.99/-67.17|-248.79/-68.2|-246.25/-69|-242.98/-70.97|-239.01/-73.4|-244.81/-72.88|-248.94/-70.82|-253.27/-68.95|-258.19/-67.93|-262.92/-67.36|-268.06/-66.76|-274/-65.34|-278.53/-64.07|-284.34/-62.29|-286.79/-61.22|-289.39/-59.98|-291.28/-58.79|-288.72/-57.93</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly01" title="" url="" target="_blank" description="">
+        <polystring>-353.42/-17.71|-347.99/-15.42|-342.28/-12.64|-339.03/-10.23|-335.36/-8.93|-333.29/-9.33|-329.63/-7.83|-327.82/-6.71|-329.36/-8.34|-335.02/-10.45|-338.58/-11.39|-341.94/-13.17|-347.15/-15.75|-350.47/-17.44|-351.85/-18.52</polystring>
+      </polyhotspot>
+      <polyhotspot id="Poly02" title="" url="" target="_blank" description="">
+        <polystring>-321.73/-15.44|-329.83/-16.24|-339.41/-15.64|-350.2/-13.52|-359.49/-11.54|-8.43/-9.52|-21.6/-5.77|-26.58/-4.36|-26.44/-5.14|-15.74/-8.34|-5.92/-10.62|-353.68/-13.48|-346.82/-15.06|-338.85/-16.13|-333.55/-16.82|-325.56/-17.26|-321.76/-16.52|-319.53/-16.07</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image roty="-17.600" width="100" stretch="0.550" popbackmode="0" id="교육" rotz="-0.060" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.780" tilt="-4.760" fov="4.910" pan="35.770">
+        <source url="media/ulsanuni.png"/>
+      </image>
+      <image roty="-2.000" width="300" stretch="1.000" popbackmode="0" id="자연" rotz="-3.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-18.000" tilt="-21.320" fov="8.000" pan="-344.980">
+        <source url="media/image.png"/>
+      </image>
+      <image roty="-1.000" width="300" stretch="0.950" popbackmode="0" id="교통" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-3.830" fov="7.000" pan="-349.970">
+        <source url="media/image-1.png"/>
+      </image>
+      <image roty="-11.000" width="100" stretch="0.760" popbackmode="0" id="생활" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="-19.000" tilt="-9.900" fov="6.000" pan="-351.560">
+        <source url="media/image-2.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="교통" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="-10.000" tilt="-14.190" fov="5.000" pan="-329.170">
+        <source url="media/image-3.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="0.810" popbackmode="0" id="교통" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-6.320" fov="5.000" pan="-330.340">
+        <source url="media/image-4.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="생활" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-1.590" fov="6.000" pan="-26.040">
+        <source url="media/image-5.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="생활" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-2.570" fov="4.000" pan="-24.650">
+        <source url="media/image-6.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="생활" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-7.990" fov="5.000" pan="-341.800">
+        <source url="media/image-7.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="0.920" popbackmode="0" id="생활" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-3.950" fov="5.000" pan="-344.280">
+        <source url="media/image-8.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="생활" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="-16.000" tilt="-12.130" fov="5.000" pan="-274.390">
+        <source url="media/image-9.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="자연" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-17.290" fov="9.000" pan="-110.310">
+        <source url="media/image-10.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="자연" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-31.000" tilt="-26.310" fov="8.000" pan="-58.450">
+        <source url="media/image-11.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="0.720" popbackmode="0" id="자연" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="-22.000" tilt="-10.620" fov="7.000" pan="-231.780">
+        <source url="media/image-12.png"/>
+      </image>
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="자연" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-1.190" fov="4.000" pan="-327.350">
+        <source url="media/image-13.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="문화" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-31.000" tilt="-35.930" fov="9.000" pan="-177.330">
+        <source url="media/image-14.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="문화" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-28.000" tilt="-16.250" fov="8.000" pan="-334.930">
+        <source url="media/image-15.png"/>
+      </image>
+      <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="문화" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-22.000" tilt="-21.540" fov="9.000" pan="-300.760">
+        <source url="media/image-16.png"/>
+      </image>
+    </media>
+    <transition zoomin="0" enabled="1" blendcolor="0x000000" blendtime="1" softedge="0" delay="none" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomfov="40" type="crossdissolve" zoomout="0" zoomoutpause="1"/>
+    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" contextfullscreen="1" hideabout="0" simulatemass="1" lockedkeyboardzoom="0" speedwheel="1" zoomcentercursor="1" contextvr="1" lockedmouse="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" lockedkeyboard="0" invertwheel="0" contextprojections="0" lockedwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata title="" author="" description="" copyright="" comment="" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
