@@ -98,14 +98,8 @@
       <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="문화" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-22.000" tilt="-21.540" fov="9.000" pan="-300.760">
         <source url="media/image-16.png"/>
       </image>
-      <image roty="-7.990" width="3813" stretch="2.000" popbackmode="0" id="교통" rotz="-2.540" height="2537" hidepinned="0" handcursor="0" clickmode="0" rotx="55.700" tilt="-23.280" fov="58.800" pan="17.300">
-        <source url="media/1.png"/>
-      </image>
-      <image roty="46.800" width="2486" stretch="1.136" popbackmode="0" id="교통" rotz="15.090" height="1630" hidepinned="0" handcursor="0" clickmode="0" rotx="-11.660" tilt="-62.170" fov="64.960" pan="-53.270">
-        <source url="media/21.png"/>
-      </image>
-      <image roty="21.910" width="1042" stretch="0.944" popbackmode="0" id="교통" rotz="-2.350" height="461" hidepinned="0" handcursor="0" clickmode="0" rotx="22.260" tilt="-9.460" fov="30.800" pan="11.160">
-        <source url="media/22.png"/>
+      <image roty="0.000" width="5888" stretch="1.000" popbackmode="0" id="교통" rotz="-3.000" height="5888" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-47.070" fov="104.070" pan="-0.470">
+        <source url="media/image-17.png"/>
       </image>
     </media>
     <transition zoomin="0" enabled="1" blendcolor="0x000000" blendtime="1" softedge="0" delay="none" zoomafteroutfov="40" zoomafterinfov="140" zoomspeed="2" zoomfov="40" type="crossdissolve" zoomout="0" zoomoutpause="1"/>
