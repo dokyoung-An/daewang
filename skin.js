@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-09T20:34:56
+// Generated 2023-11-09T20:41:33
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -306,7 +306,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='container';
 		hs ='';
 		hs+='height : 100%;';
-		hs+='left : 0%;';
+		hs+='left : -100%;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
@@ -339,7 +339,7 @@ function pano2vrSkin(player,base) {
 					me.__.style.top='0px';
 				}
 				else {
-					me.__.style.left='0%';
+					me.__.style.left='-100%';
 					me.__.style.top='0px';
 				}
 			}

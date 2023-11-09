@@ -65,7 +65,7 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <image roty="-17.600" width="100" stretch="0.550" popbackmode="0" id="교육" rotz="-0.060" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.780" tilt="-4.760" fov="4.910" pan="35.770">
+      <image roty="-17.600" width="100" stretch="0.600" popbackmode="0" id="교육" rotz="-0.060" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.780" tilt="-4.760" fov="6.910" pan="35.770">
         <source url="media/ulsanuni.png"/>
       </image>
       <image roty="-2.000" width="300" stretch="1.000" popbackmode="0" id="자연" rotz="-3.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-18.000" tilt="-21.320" fov="8.000" pan="-344.980">
@@ -107,7 +107,7 @@
       <image roty="0.000" width="100" stretch="0.720" popbackmode="0" id="자연" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="-22.000" tilt="-10.620" fov="7.000" pan="-231.780">
         <source url="media/image-12.png"/>
       </image>
-      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="자연" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-1.190" fov="4.000" pan="-327.350">
+      <image roty="0.000" width="100" stretch="1.000" popbackmode="0" id="자연" rotz="0.000" height="100" hidepinned="0" handcursor="0" clickmode="0" rotx="0.000" tilt="-1.190" fov="6.000" pan="-327.350">
         <source url="media/image-13.png"/>
       </image>
       <image roty="0.000" width="300" stretch="1.000" popbackmode="0" id="문화" rotz="0.000" height="200" hidepinned="0" handcursor="0" clickmode="0" rotx="-31.000" tilt="-35.930" fov="9.000" pan="-177.330">
