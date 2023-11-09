@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-09T20:41:33
+// Generated 2023-11-09T21:39:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -706,13 +706,13 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me.__12.onclick=function (e) {
-			player.changePolygonMode(0);
 			me._off3.style.transition='none';
 			me._off3.style.visibility=(Number(me._off3.style.opacity)>0||!me._off3.style.opacity)?'inherit':'hidden';
 			me._off3.ggVisible=true;
 			me.__12.style.transition='none';
 			me.__12.style.visibility='hidden';
 			me.__12.ggVisible=false;
+			player.setMediaVisibility("\uad50\ud1b5","0",0);
 			player.setMediaVisibility("\uad50\ud1b5","0",0);
 		}
 		me.__12.ggUpdatePosition=function (useTransition) {
@@ -1247,13 +1247,13 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._off3.onclick=function (e) {
-			player.changePolygonMode(1);
 			me.__12.style.transition='none';
 			me.__12.style.visibility=(Number(me.__12.style.opacity)>0||!me.__12.style.opacity)?'inherit':'hidden';
 			me.__12.ggVisible=true;
 			me._off3.style.transition='none';
 			me._off3.style.visibility='hidden';
 			me._off3.ggVisible=false;
+			player.setMediaVisibility("\uad50\ud1b5","1",0);
 			player.setMediaVisibility("\uad50\ud1b5","1",0);
 		}
 		me._off3.ggUpdatePosition=function (useTransition) {
