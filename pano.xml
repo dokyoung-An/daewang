@@ -43,6 +43,7 @@
     <hotspots width="180" smoothmovement="0" height="20" wordwrap="1">
       <label border="1" bordercolor="0x000000" borderalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" borderradius="0" textcolor="0x000000" height="20"/>
       <polystyle mode="1" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="0" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot customimageheight="200" pan="-0.79" skinid="ht_image" id="대왕" use3D="0" title="대왕암공원설명" customimage="media/image-20.png" distance3D="1714.51" description="" tilt="-63.07" customimagewidth="300" fov="10" url="images/image-18.png" target=""/>
     </hotspots>
     <media>
       <image rotx="0.780" roty="-17.600" pan="35.770" rotz="-0.060" clickmode="0" stretch="0.600" id="교육" width="100" tilt="-4.760" fov="6.910" popbackmode="0" handcursor="0" hidepinned="0" height="100">
@@ -78,7 +79,7 @@
       <image rotx="-16.000" roty="0.000" pan="-274.390" rotz="0.000" clickmode="0" stretch="1.000" id="생활" width="100" tilt="-12.130" fov="5.000" popbackmode="0" handcursor="0" hidepinned="0" height="100">
         <source url="media/image-9.png"/>
       </image>
-      <image rotx="0.000" roty="0.000" pan="-110.310" rotz="0.000" clickmode="0" stretch="1.000" id="자연" width="300" tilt="-17.290" fov="9.000" popbackmode="0" handcursor="0" hidepinned="0" height="200">
+      <image rotx="0.000" roty="0.000" pan="-113.170" rotz="0.000" clickmode="0" stretch="1.000" id="자연" width="300" tilt="-17.830" fov="9.000" popbackmode="0" handcursor="0" hidepinned="0" height="200">
         <source url="media/image-10.png"/>
       </image>
       <image rotx="-31.000" roty="0.000" pan="-58.450" rotz="0.000" clickmode="0" stretch="1.000" id="자연" width="300" tilt="-26.310" fov="8.000" popbackmode="0" handcursor="0" hidepinned="0" height="200">
@@ -101,9 +102,6 @@
       </image>
       <image rotx="0.000" roty="0.000" pan="-0.470" rotz="-3.000" clickmode="0" stretch="1.000" id="교통" width="5888" tilt="-47.070" fov="104.070" popbackmode="0" handcursor="0" hidepinned="0" height="5888">
         <source url="media/image-17.png"/>
-      </image>
-      <image rotx="0.000" roty="0.000" pan="7.160" rotz="0.000" clickmode="0" stretch="1.000" id="자연" width="1264" tilt="-26.370" fov="30.790" popbackmode="0" handcursor="0" hidepinned="0" height="1264">
-        <source url="media/image-18.png"/>
       </image>
       <image rotx="0.000" roty="0.000" pan="-63.900" rotz="0.000" clickmode="0" stretch="1.000" id="문화" width="2480" tilt="-46.020" fov="56.790" popbackmode="0" handcursor="0" hidepinned="0" height="2480">
         <source url="media/image-19.png"/>
