@@ -9,7 +9,7 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <start projection="4" fov="126.58" pan="-11.6079" tilt="-25.1918"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovfisheye="360" fov="140" scaletofit="1" pan="360" fovstereographic="330" tilt="90"/>
@@ -19,7 +19,35 @@
       <label enabled="1" bordercolor="0x000000" wordwrap="1" borderradius="0" background="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" height="20"/>
       <polystyle mode="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x0000ff" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="20.000" pan="-11.630" id="Element01" handcursor="0" roty="2.000" popbackmode="0" width="345" tilt="-34.480" clickmode="0" rotx="-32.000" height="200">
+        <source url="media/image-19.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="19.000" pan="-268.290" id="Element02" handcursor="0" roty="0.000" popbackmode="0" width="100" tilt="-59.550" clickmode="0" rotx="-44.000" height="100">
+        <source url="media/image-21.png"/>
+      </image>
+      <image stretch="0.870" rotz="-3.000" hidepinned="0" fov="14.000" pan="-183.560" id="Element03" handcursor="0" roty="0.000" popbackmode="0" width="100" tilt="-20.520" clickmode="0" rotx="-23.000" height="100">
+        <source url="media/image-23.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="19.000" pan="-163.640" id="Element04" handcursor="0" roty="0.000" popbackmode="0" width="300" tilt="-18.540" clickmode="0" rotx="0.000" height="200">
+        <source url="media/image-25.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="12.000" pan="-111.820" id="Element05" handcursor="0" roty="0.000" popbackmode="0" width="300" tilt="-6.040" clickmode="0" rotx="0.000" height="200">
+        <source url="media/image-27.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="13.000" pan="-93.400" id="Element06" handcursor="0" roty="0.000" popbackmode="0" width="252" tilt="-4.810" clickmode="0" rotx="-12.000" height="200">
+        <source url="media/image-29.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="16.000" pan="-59.450" id="Element07" handcursor="0" roty="-9.000" popbackmode="0" width="362" tilt="-7.700" clickmode="0" rotx="-9.000" height="200">
+        <source url="media/image-31.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="14.000" pan="-208.030" id="Element08" handcursor="0" roty="0.000" popbackmode="0" width="345" tilt="-23.000" clickmode="0" rotx="0.000" height="200">
+        <source url="media/image-21.png"/>
+      </image>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="17.000" pan="-345.390" id="Element09" handcursor="0" roty="0.000" popbackmode="0" width="273" tilt="-25.440" clickmode="0" rotx="-19.000" height="200">
+        <source url="media/image-17.png"/>
+      </image>
+    </media>
     <transition enabled="1" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomfov="40" zoomout="0" blendtime="1" zoomafteroutfov="40" zoomspeed="2" type="crossdissolve" zoomin="0" softedge="0" blendcolor="0x000000"/>
     <autorotate enabled="1" noderandom="1" delay="5.00" startloaded="0" nodefilter="" speed="0.030" nodedelay="0.00" horizonfromdefview="0" returntohorizon="0.000" useanimation="0"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
@@ -34,7 +62,7 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <start projection="4" fov="109.64" pan="-10.0648" tilt="-32.8309"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovfisheye="360" fov="140" scaletofit="1" pan="360" fovstereographic="330" tilt="90"/>
@@ -43,13 +71,13 @@
     <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
       <label enabled="1" bordercolor="0x000000" wordwrap="1" borderradius="0" background="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" height="20"/>
       <polystyle mode="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot fov="10" customimage="media/image-20.png" distance3D="1714.51" pan="-0.79" id="대왕" description="" target="" customimagewidth="300" tilt="-63.07" use3D="0" url="images/image-18.png" skinid="ht_image" title="대왕암공원설명" customimageheight="200"/>
+      <hotspot fov="10" customimage="media/대왕암공원이미지.png" distance3D="1714.51" pan="-0.79" id="대왕" description="" target="" customimagewidth="300" tilt="-63.07" use3D="0" url="images/image-18.png" skinid="ht_image" title="대왕암공원설명" customimageheight="200"/>
     </hotspots>
     <media>
       <image stretch="0.600" rotz="-0.060" hidepinned="0" fov="6.910" pan="35.770" id="교육" handcursor="0" roty="-17.600" popbackmode="0" width="100" tilt="-4.760" clickmode="0" rotx="0.780" height="100">
         <source url="media/ulsanuni.png"/>
       </image>
-      <image stretch="1.000" rotz="-3.000" hidepinned="0" fov="8.000" pan="-344.980" id="자연" handcursor="0" roty="-2.000" popbackmode="0" width="300" tilt="-21.320" clickmode="0" rotx="-18.000" height="200">
+      <image stretch="1.000" rotz="-3.000" hidepinned="0" fov="8.000" pan="-345.090" id="자연" handcursor="0" roty="-2.000" popbackmode="0" width="300" tilt="-21.310" clickmode="0" rotx="-18.000" height="200">
         <source url="media/image.png"/>
       </image>
       <image stretch="0.950" rotz="0.000" hidepinned="0" fov="7.000" pan="-349.970" id="교통" handcursor="0" roty="-1.000" popbackmode="0" width="300" tilt="-3.830" clickmode="0" rotx="0.000" height="200">
@@ -100,14 +128,14 @@
       <image stretch="1.000" rotz="0.000" hidepinned="0" fov="9.000" pan="-300.760" id="문화" handcursor="0" roty="0.000" popbackmode="0" width="300" tilt="-21.540" clickmode="0" rotx="-22.000" height="200">
         <source url="media/image-16.png"/>
       </image>
-      <image stretch="1.000" rotz="-3.000" hidepinned="0" fov="104.070" pan="-0.470" id="교통" handcursor="0" roty="0.000" popbackmode="0" width="5888" tilt="-47.070" clickmode="0" rotx="0.000" height="5888">
-        <source url="media/image-17.png"/>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="67.010" pan="36.580" id="교통" handcursor="0" roty="0.000" popbackmode="0" width="3040" tilt="-29.480" clickmode="0" rotx="0.000" height="3040">
+        <source url="media/1-1.png"/>
       </image>
-      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="56.790" pan="-63.900" id="문화" handcursor="0" roty="0.000" popbackmode="0" width="2480" tilt="-46.020" clickmode="0" rotx="0.000" height="2480">
-        <source url="media/image-19.png"/>
+      <image stretch="1.000" rotz="-4.000" hidepinned="0" fov="130.620" pan="24.320" id="교통" handcursor="0" roty="0.000" popbackmode="0" width="9984" tilt="-13.320" clickmode="0" rotx="0.000" height="1184">
+        <source url="media/1-2.png"/>
       </image>
-      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="30.790" pan="14.780" id="도로" handcursor="0" roty="0.000" popbackmode="0" width="1264" tilt="-13.810" clickmode="0" rotx="0.000" height="1264">
-        <source url="media/2.png"/>
+      <image stretch="1.000" rotz="0.000" hidepinned="0" fov="31.620" pan="12.460" id="교통" handcursor="0" roty="0.000" popbackmode="0" width="1312" tilt="-13.970" clickmode="0" rotx="0.000" height="1312">
+        <source url="media/1-3.png"/>
       </image>
     </media>
     <transition enabled="1" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomfov="40" zoomout="0" blendtime="1" zoomafteroutfov="40" zoomspeed="2" type="crossdissolve" zoomin="0" softedge="0" blendcolor="0x000000"/>
