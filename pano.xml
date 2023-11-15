@@ -19,11 +19,7 @@
       <label enabled="1" bordercolor="0x000000" wordwrap="1" borderradius="0" background="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" height="20"/>
       <polystyle mode="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x0000ff" handcursor="1"/>
     </hotspots>
-    <media>
-      <sound tiltsize="10.000" nodechangekeep="1" pan="-1.000" startmutedmobile="0" id="_background" mode="0" loop="1" pansize="10.000" tilt="-1.000" ambientlevel="0.000" level="1.000" field="90.000">
-        <source url="media/SellBuyMusic - Ending.mp3"/>
-      </sound>
-    </media>
+    <media/>
     <transition enabled="1" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomfov="40" zoomout="0" blendtime="1" zoomafteroutfov="40" zoomspeed="2" type="crossdissolve" zoomin="0" softedge="0" blendcolor="0x000000"/>
     <autorotate enabled="1" noderandom="1" delay="5.00" startloaded="0" nodefilter="" speed="0.030" nodedelay="0.00" horizonfromdefview="0" returntohorizon="0.000" useanimation="0"/>
     <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
@@ -113,9 +109,6 @@
       <image stretch="1.000" rotz="0.000" hidepinned="0" fov="30.790" pan="14.780" id="도로" handcursor="0" roty="0.000" popbackmode="0" width="1264" tilt="-13.810" clickmode="0" rotx="0.000" height="1264">
         <source url="media/2.png"/>
       </image>
-      <sound tiltsize="10.000" nodechangekeep="1" pan="-1.000" startmutedmobile="0" id="_background" mode="0" loop="1" pansize="10.000" tilt="-1.000" ambientlevel="0.000" level="1.000" field="90.000">
-        <source url="media/SellBuyMusic - Ending.mp3"/>
-      </sound>
     </media>
     <transition enabled="1" delay="none" zoomafterinfov="140" zoomoutpause="1" zoomfov="40" zoomout="0" blendtime="1" zoomafteroutfov="40" zoomspeed="2" type="crossdissolve" zoomin="0" softedge="0" blendcolor="0x000000"/>
     <autorotate enabled="1" noderandom="1" delay="5.00" startloaded="0" nodefilter="" speed="0.030" nodedelay="0.00" horizonfromdefview="0" returntohorizon="0.000" useanimation="0"/>
