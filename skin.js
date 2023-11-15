@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-15T18:34:48
+// Generated 2023-11-15T18:42:50
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -758,7 +758,12 @@ function pano2vrSkin(player,base) {
 			if (me._video_1.ggApiPlayer) {
 				if (me._video_1.ggApiPlayerType == 'youtube') {
 					let youtubeMediaFunction = function() {
-						me._video_1.ggApiPlayer.playVideo();
+						if (me._video_1.ggApiPlayer.getPlayerState() == 1) {
+							me._video_1.ggApiPlayer.pauseVideo();
+							me._video_1.ggApiPlayer.seekTo(0);
+						} else {
+							me._video_1.ggApiPlayer.playVideo();
+						}
 					};
 					if (me._video_1.ggApiPlayerReady) {
 						youtubeMediaFunction();
@@ -771,10 +776,18 @@ function pano2vrSkin(player,base) {
 						}, 100);
 					}
 				} else if (me._video_1.ggApiPlayerType == 'vimeo') {
-					me._video_1.ggApiPlayer.play();
+					var promise = me._video_1.ggApiPlayer.getPaused();
+					promise.then(function(result) {
+						if (result == true) {
+							me._video_1.ggApiPlayer.play();
+						} else {
+							me._video_1.ggApiPlayer.pause();
+							me._video_1.ggApiPlayer.setCurrentTime(0);
+						}
+					});
 				}
 			} else {
-				player.playSound("Video 1","1");
+				player.playStopSound("Video 1","1");
 			}
 		}
 		me.__210.ggUpdatePosition=function (useTransition) {
@@ -1611,6 +1624,31 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__16.logicBlock_scaling();
+		me.__16.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getViewerSize().width <= 670))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me.__16.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me.__16.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me.__16.style.transition='left 0s, bottom 0s, transform 0s';
+				if (me.__16.ggCurrentLogicStateVisible == 0) {
+					me.__16.style.visibility="hidden";
+					me.__16.ggVisible=false;
+				}
+				else {
+					me.__16.style.visibility=(Number(me.__16.style.opacity)>0||!me.__16.style.opacity)?'inherit':'hidden';
+					me.__16.ggVisible=true;
+				}
+			}
+		}
+		me.__16.logicBlock_visible();
 		me.__16.ggUpdatePosition=function (useTransition) {
 		}
 		el=me.__17=document.createElement('div');
@@ -6526,7 +6564,7 @@ function pano2vrSkin(player,base) {
 				ggTimeParam = 'start' + media.slice(ggYoutubeMedia.indexOf('&') + 2) + '&amp;';
 				ggYoutubeMedia = ggYoutubeMedia.slice(0, ggYoutubeMedia.indexOf('&'));
 			}
-			var ggVideoParams = '?' + ggTimeParam + 'autoplay=1&amp;controls=0&amp;loop=0&amp;enablejsapi=1&amp;rel=0';
+			var ggVideoParams = '?' + ggTimeParam + 'autoplay=0&amp;controls=0&amp;loop=0&amp;enablejsapi=1&amp;rel=0';
 			var ggVideoUrl = 'https://www.youtube.com/embed/' + ggYoutubeMedia + ggVideoParams;
 			me._video_1__vid.setAttribute('src', ggVideoUrl);
 			me._video_1__vid.setAttribute('width', '100%');
@@ -7444,7 +7482,12 @@ function pano2vrSkin(player,base) {
 			if (me._video_1.ggApiPlayer) {
 				if (me._video_1.ggApiPlayerType == 'youtube') {
 					let youtubeMediaFunction = function() {
-						me._video_1.ggApiPlayer.playVideo();
+						if (me._video_1.ggApiPlayer.getPlayerState() == 1) {
+							me._video_1.ggApiPlayer.pauseVideo();
+							me._video_1.ggApiPlayer.seekTo(0);
+						} else {
+							me._video_1.ggApiPlayer.playVideo();
+						}
 					};
 					if (me._video_1.ggApiPlayerReady) {
 						youtubeMediaFunction();
@@ -7457,10 +7500,18 @@ function pano2vrSkin(player,base) {
 						}, 100);
 					}
 				} else if (me._video_1.ggApiPlayerType == 'vimeo') {
-					me._video_1.ggApiPlayer.play();
+					var promise = me._video_1.ggApiPlayer.getPaused();
+					promise.then(function(result) {
+						if (result == true) {
+							me._video_1.ggApiPlayer.play();
+						} else {
+							me._video_1.ggApiPlayer.pause();
+							me._video_1.ggApiPlayer.setCurrentTime(0);
+						}
+					});
 				}
 			} else {
-				player.playSound("Video 1","1");
+				player.playStopSound("Video 1","1");
 			}
 		}
 		me.__2pc.ggUpdatePosition=function (useTransition) {
@@ -8182,6 +8233,7 @@ function pano2vrSkin(player,base) {
 		me.__46.logicBlock_backgroundcolor();
 		me.__16.logicBlock_position();
 		me.__16.logicBlock_scaling();
+		me.__16.logicBlock_visible();
 		me.__17.logicBlock_backgroundcolor();
 		me._image_3.logicBlock_visible();
 		me.__27.logicBlock_backgroundcolor();
@@ -8220,6 +8272,29 @@ function pano2vrSkin(player,base) {
 		me.__4.logicBlock_visible();
 		me.__2.logicBlock_size();
 		me._video_1.ggInitMedia('Tb5NnEZznkM&si=-Z9M3DmkAv-iyj2I');
+		if (me._video_1.ggApiPlayer) {
+			if (me._video_1.ggApiPlayerType == 'youtube') {
+				let youtubeMediaFunction = function() {
+					me._video_1.ggApiPlayer.pauseVideo();
+					me._video_1.ggApiPlayer.seekTo(0);
+				};
+				if (me._video_1.ggApiPlayerReady) {
+					youtubeMediaFunction();
+				} else {
+					let youtubeApiInterval = setInterval(function() {
+						if (me._video_1.ggApiPlayerReady) {
+							clearInterval(youtubeApiInterval);
+							youtubeMediaFunction();
+						}
+					}, 100);
+				}
+			} else if (me._video_1.ggApiPlayerType == 'vimeo') {
+				me._video_1.ggApiPlayer.pause();
+				me._video_1.ggApiPlayer.setCurrentTime(0);
+			}
+		} else {
+			player.stopSound("Video 1");
+		}
 		me.__1.logicBlock_size();
 		me.__0.logicBlock_visible();
 		me.__.logicBlock_position();
@@ -8345,6 +8420,7 @@ function pano2vrSkin(player,base) {
 			me.__45.logicBlock_visible();
 			me.__16.logicBlock_position();
 			me.__16.logicBlock_scaling();
+			me.__16.logicBlock_visible();
 			me.__17.logicBlock_backgroundcolor();
 			me._image_3.logicBlock_visible();
 			me.__27.logicBlock_backgroundcolor();
