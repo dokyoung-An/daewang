@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-15T18:49:59
+// Generated 2023-11-16T10:56:23
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -793,7 +793,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__210.ggUpdatePosition=function (useTransition) {
 		}
-		el=me.__211=document.createElement('div');
+		el=me.__212=document.createElement('div');
 		el.ggId="\ubc30\uacbd2";
 		el.ggDx=0;
 		el.ggDy=0;
@@ -814,6 +814,70 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
+		me.__212.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me.__212.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getVariableValue('vis_mobilebg2') == true))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me.__212.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me.__212.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me.__212.style.transition='';
+				if (me.__212.ggCurrentLogicStateVisible == 0) {
+					me.__212.style.visibility="hidden";
+					me.__212.ggVisible=false;
+				}
+				else {
+					me.__212.style.visibility=(Number(me.__212.style.opacity)>0||!me.__212.style.opacity)?'inherit':'hidden';
+					me.__212.ggVisible=true;
+				}
+			}
+		}
+		me.__212.logicBlock_visible();
+		me.__212.onclick=function (e) {
+				player.stopSound("_background");
+		}
+		me.__212.ggUpdatePosition=function (useTransition) {
+		}
+		me.__210.appendChild(me.__212);
+		el=me.__211=document.createElement('div');
+		el.ggId="\ubc30\uacbd2-1";
+		el.ggDx=0;
+		el.ggDy=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='background : rgba(121,7,253,0);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 100%;';
+		hs+='left : calc(50% - ((100% + 0px) / 2) + 0px);';
+		hs+='position : absolute;';
+		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
+		hs+='visibility : hidden;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
 		me.__211.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
@@ -826,6 +890,31 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
+		me.__211.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getVariableValue('vis_mobilebg2') == true))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me.__211.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me.__211.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me.__211.style.transition='background-color 0s';
+				if (me.__211.ggCurrentLogicStateVisible == 0) {
+					me.__211.style.visibility=(Number(me.__211.style.opacity)>0||!me.__211.style.opacity)?'inherit':'hidden';
+					me.__211.ggVisible=true;
+				}
+				else {
+					me.__211.style.visibility="hidden";
+					me.__211.ggVisible=false;
+				}
+			}
+		}
+		me.__211.logicBlock_visible();
 		me.__211.logicBlock_backgroundcolor = function() {
 			var newLogicStateBackgroundColor;
 			if (
@@ -849,6 +938,9 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.__211.logicBlock_backgroundcolor();
+		me.__211.onclick=function (e) {
+				player.playSound("_background","5");
+		}
 		me.__211.ggUpdatePosition=function (useTransition) {
 		}
 		me.__210.appendChild(me.__211);
@@ -1019,7 +1111,7 @@ function pano2vrSkin(player,base) {
 		me.__36.logicBlock_visible();
 		me.__36.onclick=function (e) {
 			player.setVariableValue('vis_mobilebg3', !player.getVariableValue('vis_mobilebg3'));
-				player.playPauseSound("","5");
+				player.playPauseSound("_background","5");
 			me.__37.ggVisible = !me.__37.ggVisible;
 			var flag=me.__37.ggVisible;
 			me.__37.style.transition='none';
@@ -3304,7 +3396,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 5.5%;';
 		hs+='pointer-events:none;';
-		hs+='min-width:60px;';
+		hs+='max-width:80px; min-width:60px;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
 		me.__5.ggIsActive=function() {
@@ -6503,6 +6595,7 @@ function pano2vrSkin(player,base) {
 				player.stopSound("Video 1");
 			}
 			player.setVariableValue('vis_mobilebg2', false);
+				player.playSound("_background","5");
 		}
 		me._image_2.ggUpdatePosition=function (useTransition) {
 		}
@@ -6959,6 +7052,7 @@ function pano2vrSkin(player,base) {
 			me.__1.style.transition='none';
 			me.__1.style.visibility='hidden';
 			me.__1.ggVisible=false;
+			player.setVariableValue('vis_mobilebg4', false);
 		}
 		me._image_6.ggUpdatePosition=function (useTransition) {
 		}
@@ -8278,6 +8372,8 @@ function pano2vrSkin(player,base) {
 		me.__110.logicBlock_visible();
 		me.__48.logicBlock_backgroundcolor();
 		me.__210.logicBlock_visible();
+		me.__212.logicBlock_visible();
+		me.__211.logicBlock_visible();
 		me.__211.logicBlock_backgroundcolor();
 		me.__36.logicBlock_visible();
 		me.__38.logicBlock_backgroundcolor();
@@ -8364,6 +8460,8 @@ function pano2vrSkin(player,base) {
 		});
 		player.addListener('changenode', function(event) {
 			me.__48.logicBlock_backgroundcolor();
+			me.__212.logicBlock_visible();
+			me.__211.logicBlock_visible();
 			me.__211.logicBlock_backgroundcolor();
 			me.__38.logicBlock_backgroundcolor();
 			me.__46.logicBlock_backgroundcolor();
@@ -8403,6 +8501,8 @@ function pano2vrSkin(player,base) {
 		});
 		player.addListener('configloaded', function(event) {
 			me.__48.logicBlock_backgroundcolor();
+			me.__212.logicBlock_visible();
+			me.__211.logicBlock_visible();
 			me.__211.logicBlock_backgroundcolor();
 			me.__38.logicBlock_backgroundcolor();
 			me.__46.logicBlock_backgroundcolor();
@@ -8543,6 +8643,8 @@ function pano2vrSkin(player,base) {
 			me._pc3.logicBlock_backgroundcolor();
 		});
 		player.addListener('varchanged_vis_mobilebg2', function(event) {
+			me.__212.logicBlock_visible();
+			me.__211.logicBlock_visible();
 			me.__211.logicBlock_backgroundcolor();
 			me.__2pc0.logicBlock_backgroundcolor();
 		});
