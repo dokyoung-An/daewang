@@ -162,9 +162,6 @@
       <image stretch="1.000" fov="56.010" tilt="-8.830" height="1168" width="2448" rotx="0.000" clickmode="0" hidepinned="0" roty="0.000" pan="-34.200" id="Element01" rotz="0.000" handcursor="0" popbackmode="0">
         <source url="media/2.png"/>
       </image>
-      <image stretch="1.000" fov="135.290" tilt="-10.230" height="1120" width="10000" rotx="0.000" clickmode="0" hidepinned="0" roty="0.000" pan="26.060" id="교통" rotz="0.000" handcursor="0" popbackmode="0">
-        <source url="media/image-34.png"/>
-      </image>
       <image stretch="1.000" fov="28.290" tilt="-13.530" height="1168" width="1168" rotx="0.000" clickmode="0" hidepinned="0" roty="0.000" pan="16.480" id="교통" rotz="0.000" handcursor="0" popbackmode="0">
         <source url="media/3.png"/>
       </image>
