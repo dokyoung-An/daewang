@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-16T14:49:00
+// Generated 2023-11-16T18:30:01
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -2683,35 +2683,6 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me.__34.logicBlock_scaling = function() {
-			var newLogicStateScaling;
-			if (
-				((player.getViewerSize().width <= 460))
-			)
-			{
-				newLogicStateScaling = 0;
-			}
-			else {
-				newLogicStateScaling = -1;
-			}
-			if (me.__34.ggCurrentLogicStateScaling != newLogicStateScaling) {
-				me.__34.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me.__34.style.transition='transform 0s, background-color 0s';
-				if (me.__34.ggCurrentLogicStateScaling == 0) {
-					me.__34.ggParameter.sx = 0.8;
-					me.__34.ggParameter.sy = 0.8;
-					me.__34.style.transform=parameterToTransform(me.__34.ggParameter);
-					skin.updateSize(me.__34);
-				}
-				else {
-					me.__34.ggParameter.sx = 1;
-					me.__34.ggParameter.sy = 1;
-					me.__34.style.transform=parameterToTransform(me.__34.ggParameter);
-					skin.updateSize(me.__34);
-				}
-			}
-		}
-		me.__34.logicBlock_scaling();
 		me.__34.logicBlock_backgroundcolor = function() {
 			var newLogicStateBackgroundColor;
 			if (
@@ -2725,7 +2696,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me.__34.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
 				me.__34.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
-				me.__34.style.transition='transform 0s, background-color 0s';
+				me.__34.style.transition='background-color 0s';
 				if (me.__34.ggCurrentLogicStateBackgroundColor == 0) {
 					me.__34.style.backgroundColor="rgba(121,7,253,1)";
 				}
@@ -8336,7 +8307,6 @@ function pano2vrSkin(player,base) {
 		me.__25.logicBlock_backgroundcolor();
 		me._image_5.logicBlock_visible();
 		me._image_420.logicBlock_visible();
-		me.__34.logicBlock_scaling();
 		me.__34.logicBlock_backgroundcolor();
 		me._image_42.logicBlock_visible();
 		me._image_43.logicBlock_visible();
@@ -8527,7 +8497,6 @@ function pano2vrSkin(player,base) {
 			me.__17.logicBlock_backgroundcolor();
 			me._image_3.logicBlock_visible();
 			me.__27.logicBlock_backgroundcolor();
-			me.__34.logicBlock_scaling();
 			me.__43.logicBlock_backgroundcolor();
 			me.__5.logicBlock_position();
 			me.__5.logicBlock_size();
