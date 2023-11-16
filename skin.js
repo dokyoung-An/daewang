@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: drone.ggsk
-// Generated 2023-11-16T14:07:59
+// Generated 2023-11-16T14:10:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_traffic', 2, false, { ignoreInState: 0  });
@@ -8289,31 +8289,6 @@ function pano2vrSkin(player,base) {
 		me._rectangle_8.appendChild(me.__4pc);
 		me.__.appendChild(me._rectangle_8);
 		me.divSkin.appendChild(me.__);
-		el=me._container_3=document.createElement('div');
-		el.ggId="Container 3";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_container ";
-		el.ggType='container';
-		hs ='';
-		hs+='height : 20px;';
-		hs+='left : 30px;';
-		hs+='position : absolute;';
-		hs+='top : 16px;';
-		hs+='visibility : inherit;';
-		hs+='width : 100px;';
-		hs+='pointer-events:none;';
-		el.setAttribute('style',hs);
-		el.style.transformOrigin='50% 50%';
-		me._container_3.ggIsActive=function() {
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			return player.getCurrentNode();
-		}
-		me._container_3.ggUpdatePosition=function (useTransition) {
-		}
-		me.divSkin.appendChild(me._container_3);
 		me.__28.logicBlock_visible();
 		me.__29.logicBlock_backgroundcolor();
 		me.__48.logicBlock_scaling();
@@ -8513,9 +8488,6 @@ function pano2vrSkin(player,base) {
 					hotspotTemplates['ht_image'][i].ggEvent_hsproxyover();
 				}
 			}
-		});
-		player.addListener('imagesready', function(event) {
-				player.playSound("_background","6");
 		});
 		player.addListener('sizechanged', function(event) {
 			me.__28.logicBlock_visible();
